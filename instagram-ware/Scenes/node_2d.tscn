@@ -1,15 +1,15 @@
 [gd_scene format=3 uid="uid://c8iqhhog3xpmd"]
 
-[ext_resource type="Script" uid="uid://b8lyiboe3me6h" path="res://node_2d.gd" id="1_0e48y"]
-[ext_resource type="Texture2D" uid="uid://7jo8xks11x1k" path="res://instagramware.png" id="1_wtcfe"]
+[ext_resource type="Script" uid="uid://b8lyiboe3me6h" path="res://Scripts/node_2d.gd" id="1_v1qfn"]
+[ext_resource type="Texture2D" uid="uid://7jo8xks11x1k" path="res://Images/instagramware.png" id="2_hh5uf"]
 
 [node name="TitleScreen" type="Node2D" unique_id=2101691655]
-script = ExtResource("1_0e48y")
+script = ExtResource("1_v1qfn")
 
 [node name="Background" type="TextureRect" parent="." unique_id=349111057]
 offset_right = 1152.0
 offset_bottom = 648.0
-texture = ExtResource("1_wtcfe")
+texture = ExtResource("2_hh5uf")
 expand_mode = 1
 
 [node name="Title" type="RichTextLabel" parent="." unique_id=781195993]

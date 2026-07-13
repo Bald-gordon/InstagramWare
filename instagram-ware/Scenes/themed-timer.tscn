@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://j84qwrrvriw8"]
+
+[ext_resource type="Script" uid="uid://cy2qpqu20wdrm" path="res://Scripts/tungtung-67.gd" id="1_6t571"]
+
+[node name="Node2D" type="Node2D" unique_id=2100398087]
+script = ExtResource("1_6t571")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="." unique_id=666178107]
+offset_left = 314.0
+offset_top = 217.0
+offset_right = 613.0
+offset_bottom = 257.0

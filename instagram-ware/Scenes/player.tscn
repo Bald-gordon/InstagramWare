@@ -1,0 +1,18 @@
+[gd_scene format=3 uid="uid://ct68brdr4ivc8"]
+
+[ext_resource type="Script" uid="uid://i3kmq3w6g8m5" path="res://Scripts/player.gd" id="1_cvnsp"]
+[ext_resource type="Texture2D" uid="uid://dsjg6g6b0hgrg" path="res://Images/Demoman-cahracter.png" id="2_6t5aa"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_11mgy"]
+radius = 18.0
+height = 112.0
+
+[node name="Player" type="CharacterBody2D" unique_id=800031686]
+script = ExtResource("1_cvnsp")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=478105853]
+texture = ExtResource("2_6t5aa")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1847099493]
+position = Vector2(-19, 10)
+shape = SubResource("CapsuleShape2D_11mgy")

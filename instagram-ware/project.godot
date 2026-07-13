@@ -13,7 +13,7 @@ config_version=5
 config/name="InstagramWare"
 run/main_scene="uid://c8iqhhog3xpmd"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="res://Images/icon.svg"
 
 [autoload]
 
